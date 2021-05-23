@@ -139,6 +139,28 @@ footer {
     color: rgba(255, 255, 255, 0.8)
 }
 
+.joinServerBtn {
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
+
+.joinServerBtn:hover {
+    transition: .25s;
+    background-color:rgba(114, 137, 218, 0.8);
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.githubBtn {
+    background-color:rgba(39, 49, 64);
+    color: white;
+}
+
+.githubBtn:hover {
+    transition: .25s;
+    background-color:rgba(39, 49, 64, 0.8);
+    color: rgba(255, 255, 255, 0.8)
+}
+
 .pandiconTextMain {
     font-family:"Days One";
     font-size: 5rem;
