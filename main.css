@@ -754,10 +754,6 @@ form .txt-field {
 	transform: scale(140%);
 }
 
-.fa-discord:hover {
-	color: var(--blue-6);
-}
-
 .fa-facebook:hover {
 	color: var(--blue-5);
 }
@@ -926,4 +922,38 @@ form .txt-field {
 
 .no-margin {
 	margin: 0
+}
+
+.place-items-center {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: .25rem;
+    text-decoration: none;
+}
+
+.addBotBtn {
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
+
+.addBotBtn:hover {
+    transition: .25s;;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(114, 137, 218, 0.8)
+}
+
+.patreonBtn {
+	background-color: rgb(255, 66, 77);
+	color: white;
+}
+
+.patreonBtn:hover {
+    transition: .25s;;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 66, 77, 0.8)
 }
