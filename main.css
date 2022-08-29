@@ -326,6 +326,10 @@ footer p {
 	}
 }
 
+.article-text {
+	padding: 0% 20%;
+}
+
 /* Scroll bar */
 
 ::-webkit-scrollbar {
